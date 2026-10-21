@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Klaara Huima: statistics, machine learning and graph theory projects, with interactive demos, code and reports.">
     <title>Klaara Huima | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -12,41 +13,46 @@
     <header>
         <div class="container header-content">
             <h1>Klaara Huima</h1>
-            <p>Statistics, Machine Learning and Graph Theory. Student and Entrepreneur.</p>
+            <p>Statistics, machine learning and graph theory.</p>
+            <p>Student and entrepreneur.</p>
+            <p>M2 Statistics, Learning and Algorithms at Sorbonne Université. Looking for a 6-month internship from April 2027.</p>
             <div class="social-links">
-                <a href="https://github.com/klaarahuima" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <!-- Add your LinkedIn or Email here if you want -->
+                <a href="https://github.com/klaarahuima" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/klaarahuima/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:klaara.huima@gmail.com"><i class="fas fa-envelope"></i> Email</a>
             </div>
         </div>
     </header>
 
     <main class="container">
-        
+
         <!-- Projects Section -->
         <section id="projects">
             <h2>Projects</h2>
             <div class="grid">
-                
-                <!-- Project 1: Research Internship -->
+
+                <!-- Project 1: Bachelor thesis -->
                 <div class="card">
-                    <h3>Research Internship</h3>
-                    <p class="subtitle"><em>Ecole Polytechnique and Dalhousie University</em></p>
-                    <p>Conducted research focusing on [insert topic]. Developed an interactive demonstration to visualize the findings and methodologies.</p>
+                    <h3>Spectral Embedding of Random Graphs</h3>
+                    <p class="subtitle"><em>Bachelor thesis · École Polytechnique &amp; Dalhousie University, supervised by Prof. Jeannette Janssen</em></p>
+                    <p> Simulation of random graphs and study of the stability of their embeddings under random perturbations. The demo lets you visualise how the embedding changes with the graph size, model and edge-removal probability.</p>
                     <div class="card-links">
-                        <a href="#" class="btn" target="_blank">Interactive Demo</a>
-                        <a href="#" class="btn" target="_blank">View Code</a>
-                        <a href="#" class="btn" target="_blank">Read Report</a>
+                        <!-- TODO: replace each "#" with the real link, or delete the button until it is ready -->
+                        <a href="https://spectral-embedding-research.onrender.com/" class="btn" target="_blank" rel="noopener noreferrer">Demo</a>
+                        <a href="https://github.com/klaarahuima/Spectral-embedding-research" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a href="thesis.pdf" class="btn" target="_blank" rel="noopener noreferrer">Read Thesis</a>
                     </div>
                 </div>
 
-                <!-- Project 2: Machine Learning -->
+                <!-- Project 2: Machine Learning (personal project) -->
                 <div class="card">
-                    <h3>Machine Learning Project</h3>
-                    <p class="subtitle"><em>Academic / Independent Project</em></p>
-                    <p>A machine learning coding project that solves [insert problem]. Features a fully interactive demo to test the model's capabilities in real-time.</p>
+                    <h3>Spectral Methods vs. Autoencoders</h3>
+                    <p class="subtitle"><em>Independent project · PyTorch, COIL-20</em></p>
+                    <p> Comparison of spectral embeddings (Laplacian on k-NN graphs) with autoencoders to see how well each one recovers latent circular geometry.</p>
+                       <p>Hybrid image generator in PyTorch: a fixed spectral encoder and an autoencoder feeding the same transposed-convolution decoder. Explore results with interactive demo.</p>
                     <div class="card-links">
-                        <a href="#" class="btn" target="_blank">Interactive Demo</a>
-                        <a href="#" class="btn" target="_blank">View Code</a>
+                        <a href="#" class="btn" target="_blank" rel="noopener noreferrer">Demo</a>
+                        <a href="#" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
                     </div>
                 </div>
 
@@ -57,14 +63,14 @@
         <section id="entrepreneurship">
             <h2>Entrepreneurship</h2>
             <div class="grid">
-                
+
                 <!-- Company Intro -->
                 <div class="card">
                     <h3>Huima Generation</h3>
                     <p class="subtitle"><em>About my company</em></p>
-                    <p>A brief introduction to Huima Generation. We specialize in building innovative solutions and pushing the boundaries of technology and design.</p>
+                    <p>Huima Generation is the company behind Compis. It grew out of years of producing dance competitions (15 events of about 2 000 participants each), where the same slow, error-prone spreadsheets and email threads kept coming back. So we built the tool we wanted to have.</p>
                     <div class="card-links">
-                        <a href="https://your-company-landing-page.com" target="_blank" class="btn primary-btn">Company Landing Page</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="btn primary-btn">Visit our site</a>
                     </div>
                 </div>
 
@@ -72,9 +78,9 @@
                 <div class="card">
                     <h3>Compis</h3>
                     <p class="subtitle"><em>SaaS product by Huima Generation</em></p>
-                    <p>A web application built using Lovable, designed specifically to help competition organization teams manage their events seamlessly.</p>
+                    <p>A web app that takes the manual work out of running dance competitions. It imports registrations from online stores, collects music files through personal participant portals, builds the schedule, and shares key information about the competition at once glance. Used for 3 competitions a year.</p>
                     <div class="card-links">
-                        <a href="#" class="btn" target="_blank">Product Landing Page</a>
+                        <a href="https://compis.huimageneration.com" target="_blank" rel="noopener noreferrer" class="btn">Landing Page (in Finnish)</a>
                     </div>
                 </div>
 
@@ -83,14 +89,11 @@
 
         <!-- Files Section -->
         <section id="files" class="section-block">
-            <h2>Documents & Files</h2>
-            <p>Download my academic thesis and resume below.</p>
+            <h2>Files</h2>
+            <p>Download my CV.</p>
             <div class="file-links">
-                <a href="cv.pdf" class="file-btn" target="_blank">
+                <a href="cv.pdf" class="file-btn" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-file-pdf"></i> Curriculum Vitae (CV)
-                </a>
-                <a href="thesis.pdf" class="file-btn" target="_blank">
-                    <i class="fas fa-graduation-cap"></i> Bachelor's Thesis
                 </a>
             </div>
         </section>
